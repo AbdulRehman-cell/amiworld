@@ -381,8 +381,8 @@ export default function ProductDetail({ addToCart }) {
                     >
                       {product.discipline === 'Field Hockey' ? (
                         <>
-                          <option value="36.5\"">36.5" Standard Optimal</option>
-                          <option value="37.5\"">37.5" Tall Reach</option>
+                          <option value="36.5">36.5" Standard Optimal</option>
+                          <option value="37.5">37.5" Tall Reach</option>
                         </>
                       ) : product.discipline === 'Padel' ? (
                         <>
